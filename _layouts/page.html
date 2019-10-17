@@ -1,0 +1,41 @@
+---
+layout: main
+---
+<style>
+    .subheading {
+        margin: 1rem 2.5rem;
+        padding: 1rem;
+        border-bottom: solid 5px #E5781E;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .subsubheading {
+        font-size: 2rem;
+    }
+    .page__img {
+        height: 70vh;
+        width: 100%;
+    }
+    .list-item {
+        font-size: 1.8rem;
+    }
+    ul > li > div > h5 {
+        margin-left: 1rem;
+    }
+    .collection {
+        color: #E5781E;
+    }
+</style>
+{% include header.html %}
+{% if page.himage == true %}
+    <img 
+        class="page__img"
+        height="500" 
+        src={{page.heroimg}}
+    >
+{% endif %}
+
+<div class="container">
+    {{content}}
+</div>
+{% include footer.html %}
