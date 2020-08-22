@@ -4,6 +4,7 @@ description: "Our team having expertise and good experience in 3D modeling on va
 <ol>
 <li>Detail equipment modeling.</li>
 <li>Pipe routing with instruments modeling.</li>
+<li> more...</li>
 </ol>"
 image: "https://i.ibb.co/yhVXSdL/Proposal-Engineering.jpg"
 service: "3dmodelingservices"
